@@ -1,0 +1,33 @@
+.interior__title {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    animation: interior__title 2.5s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    .interior__title {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .interior__title {
+        font-size: 50px;
+    }
+}
+
+@keyframes interior__title {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+    }
+}

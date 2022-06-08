@@ -1,0 +1,27 @@
+.partner {
+    max-width: 1200px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .partner {
+        max-width: 500px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 100px;
+        column-gap: 50px;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .partner {
+        max-width: 100px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+        margin: 0 auto;
+    }
+}

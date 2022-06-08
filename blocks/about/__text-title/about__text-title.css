@@ -1,0 +1,9 @@
+.about__text-title {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}

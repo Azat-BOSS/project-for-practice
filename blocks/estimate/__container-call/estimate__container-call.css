@@ -1,0 +1,11 @@
+.estimate__container-call {
+    display: flex;
+    margin-top: 40px;
+    max-width: 250px;
+}
+
+@media screen and (max-width: 1020px) {
+    .estimate__container-call {
+        margin: 40px auto 0;
+    }
+}

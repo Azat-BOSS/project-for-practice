@@ -1,0 +1,23 @@
+.estimate__text {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 42px;
+    max-width: 531px;
+}
+
+@media screen and (max-width: 1020px) {
+    .estimate__text {
+        margin: 42px auto 0;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .estimate__text {
+        max-width: 300px;
+    }
+}

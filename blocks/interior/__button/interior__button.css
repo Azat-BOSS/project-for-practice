@@ -1,0 +1,48 @@
+.interior__button {
+    width: 207px;
+    height: 71px;
+    color: white;
+    background-color: #292F36;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Jost', 'Arial', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.75);
+    margin-top: 35px;
+    animation: interior__button 1s ease-out;
+}
+
+.interior__button:hover {
+    opacity: .8;
+}
+
+.interior__button:active {
+    opacity: .5;
+}
+
+@media screen and (max-width: 768px) {
+    .interior__button {
+        width: 170px;
+        height: 61px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .interior__button {
+        width: 150px;
+        height: 51px;
+        font-size: 16px;
+    }
+}
+
+@keyframes interior__button {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+    }
+}

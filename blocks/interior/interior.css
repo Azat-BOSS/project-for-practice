@@ -1,0 +1,23 @@
+.interior {
+    background-image: url('../../../images/illusrtations/IMAGE(3).png');
+    width: 100%;
+    height: 830px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+    .interior {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .interior {
+        height: 600px;
+    }
+}

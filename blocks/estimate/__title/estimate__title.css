@@ -1,0 +1,22 @@
+.estimate__title {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 130%;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    max-width: 450px;
+}
+
+@media screen and (max-width: 1020px) {
+    .estimate__title {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .estimate__title {
+        max-width: 300px;
+    }
+}

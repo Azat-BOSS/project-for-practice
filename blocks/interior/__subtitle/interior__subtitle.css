@@ -1,0 +1,35 @@
+.interior__subtitle {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-top: 19px;
+    animation: interior__subtitle 2s ease-out;
+}
+
+@media screen and (max-width: 768px) {
+    .interior__subtitle {
+        font-size: 18px;
+        color: #000
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .interior__subtitle {
+        font-size: 16px;
+        color: #000
+    }
+}
+
+@keyframes interior__subtitle {
+    0% {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+    100% {
+        opacity: 1;
+    }
+}

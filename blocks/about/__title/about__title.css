@@ -1,0 +1,20 @@
+.about__title {
+    max-width: 479px;
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #292F36;
+    padding: 103px 0 45px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 460px) {
+    .about__title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

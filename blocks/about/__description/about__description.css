@@ -1,0 +1,12 @@
+.about__description {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    max-width: 244px;
+    margin: 0 auto;
+    padding: 25px 0 40px 0;
+}

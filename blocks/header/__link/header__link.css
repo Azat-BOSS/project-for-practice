@@ -1,0 +1,25 @@
+.header__link {
+    margin-left: 40px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+    color: #292F36;
+}
+
+.header__link:first-child {
+    margin-left: 0px;
+}
+
+.header__link:hover {
+    color: #CDA274;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__link {
+        display: none;
+    }
+}

@@ -1,0 +1,14 @@
+.header__button span {
+    width: 34px;
+    height: 2px;
+    border-bottom: 3px solid black;
+    display: none;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__button span {
+        display: flex;
+    }
+}

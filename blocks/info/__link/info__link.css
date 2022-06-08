@@ -1,0 +1,18 @@
+.info__link {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.36px;
+    color: #4D5053;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.info__link:hover {
+    opacity: .4;
+}

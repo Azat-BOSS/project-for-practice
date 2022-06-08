@@ -1,0 +1,25 @@
+.about {
+    margin: 144px auto;
+    max-width: 1200px;
+    background-color: #F4F0EC;
+    border-radius: 70px;
+}
+
+@media screen and (max-width: 1180px) {
+    .about {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about {
+        padding: 0 10px;
+        max-width: 340px;
+    }
+}

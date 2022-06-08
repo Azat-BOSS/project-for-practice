@@ -1,0 +1,21 @@
+.estimate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1200px;
+    margin: 0 auto;
+    column-gap: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .estimate {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .estimate {
+        margin-left: 0;
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
+}
