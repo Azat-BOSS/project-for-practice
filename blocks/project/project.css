@@ -1,0 +1,11 @@
+.project {
+    max-width: 1200px;
+    margin: 115px auto 65px;
+    padding: 0 40px;
+}
+
+@media screen and (max-width: 390px) {
+    .project {
+        padding: 0 10px;
+    }
+}

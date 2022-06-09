@@ -1,0 +1,20 @@
+.footer__link {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 620px) {
+    .footer__link {
+        font-size: 18px;
+    }
+}
+
+.footer__link:last-child {
+    margin-bottom: 0px;
+}

@@ -1,0 +1,15 @@
+.footer__phone {
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+}
+
+@media screen and (max-width: 620px) {
+    .footer__phone {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,29 @@
+.footer {
+    max-width: 1200px;
+    margin: 79px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 50px;
+    padding: 0 50px 0 50px;
+}
+
+@media screen and (max-width: 1140px) {
+    .footer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media screen and (max-width: 643px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

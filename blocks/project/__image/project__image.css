@@ -1,0 +1,10 @@
+.project__image {
+    width: 100%;
+    height: auto;
+}
+
+.project__image:hover {
+    opacity: .5;
+    filter: blur(2px);
+    transition: .2s linear;
+}

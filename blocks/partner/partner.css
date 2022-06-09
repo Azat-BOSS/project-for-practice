@@ -21,7 +21,6 @@
         max-width: 100px;
         display: flex;
         flex-direction: column;
-        row-gap: 60px;
-        margin: 0 auto;
+        row-gap: 100px;
     }
 }

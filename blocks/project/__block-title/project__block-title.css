@@ -1,0 +1,16 @@
+.project__block-title {
+    margin-top: 25px;
+    font-family: 'Jost', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 156%;
+    letter-spacing: 0.22px;
+    color: #292F36;
+}
+
+@media screen and (max-width: 390px) {
+    .project__block-title {
+        font-size: 20px;
+    }
+}

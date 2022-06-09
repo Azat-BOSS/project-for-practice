@@ -12,6 +12,7 @@
 
 .header__link:first-child {
     margin-left: 0px;
+    color: #CDA274;
 }
 
 .header__link:hover {

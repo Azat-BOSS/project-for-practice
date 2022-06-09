@@ -60,3 +60,34 @@
 
 @import url('../blocks/partner/__image/partner__image.css');
 @import url('../blocks/partner/partner.css');
+
+/* project */
+
+@import url('../blocks/project/__block-subtitle/project__block-subtitle.css');
+@import url('../blocks/project/__block-title/project__block-title.css');
+@import url('../blocks/project/__container/project__container.css');
+@import url('../blocks/project/__image/project__image.css');
+@import url('../blocks/project/__subtitle/project__subtitle.css');
+@import url('../blocks/project/__title/project__title.css');
+@import url('../blocks/project/project.css');
+
+/* career */
+
+@import url('../blocks/career/__block/career__block.css');
+@import url('../blocks/career/__subtitle/career__subtitle.css');
+@import url('../blocks/career/__title/career__title.css');
+@import url('../blocks/career/career.css');
+
+/* footer */
+
+@import url('../blocks/footer/__address/footer__address.css');
+@import url('../blocks/footer/__contact/footer__contact.css');
+@import url('../blocks/footer/__image/footer__image.css');
+@import url('../blocks/footer/__images/footer__images.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__phone/footer__phone.css');
+@import url('../blocks/footer/__subtitle/footer__subtitle.css');
+@import url('../blocks/footer/__title/footer__title.css');
+@import url('../blocks/footer/footer.css');

@@ -1,0 +1,32 @@
+.career__block {
+    border-right: 1px #CDA274 solid;
+    margin: 139px 0 139px 0;
+    height: 195px
+}
+
+.career__block:last-child {
+    border-right: none;
+}
+
+@media screen and (max-width: 1140px) {
+    .career__block:nth-child(1) {
+        margin-bottom: 40px;
+    }
+    .career__block:nth-child(2) {
+        border-right: none;
+        margin-bottom: 40px;
+    }
+    .career__block:nth-child(3) {
+        margin-top: 0;
+    }
+    .career__block:nth-child(4) {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .career__block {
+        margin: 0;
+        border: 0;
+    }
+}

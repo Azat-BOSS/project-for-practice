@@ -1,0 +1,22 @@
+.career {
+    width: 100%;
+    max-width: 1440px;
+    background-color: #F4F0EC;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 285px);
+    justify-content: center;
+}
+
+@media screen and (max-width: 1140px) {
+    .career {
+        grid-template-columns: repeat(2, 285px);
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .career {
+        grid-template-columns: 285px;
+        padding: 30px 0 30px 0;
+    }
+}

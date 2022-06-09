@@ -1,0 +1,16 @@
+.project__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    column-gap: 20px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 800px) {
+    .project__container {
+        grid-template-columns: 1fr;
+        row-gap: 80px;
+        margin-top: 70px;
+        column-gap: 0;
+    }
+}
